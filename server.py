@@ -2,7 +2,7 @@ import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-s.bind(("195.37.16.58", 1234))
+s.bind(("localhost", 1234))
 
 s.listen(5)
 
