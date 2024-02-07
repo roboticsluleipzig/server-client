@@ -4,7 +4,7 @@ import socket,cv2, pickle,struct
 # create socket
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 host_name  = socket.gethostname()
-host_ip = socket.gethostbyname(host_name)
+host_ip = '172.20.10.3'
 port = 9999
 client_socket.connect((host_ip,port)) # a tuple
 data = b""
